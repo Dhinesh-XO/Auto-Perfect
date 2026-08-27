@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+*.log
+*.jsonl
+*.rrd
+*.bag
+*.db3
+__pycache__/
+.pytest_cache/
+.venv/
+build/
+install/
+log/
+data/
+datasets/
+media/private/
