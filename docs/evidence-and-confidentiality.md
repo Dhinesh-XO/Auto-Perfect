@@ -30,3 +30,5 @@ It is a professional case study, not a reproducibility package. The implementati
 No internal log, screenshot, video, or dataset found on the development workstation is published here. Their presence was used only to avoid unsupported statements and to separate hardware work from software-only or experimental work.
 
 Readers should not interpret this repository as independent reproduction of the employer system, ENPIRE, or a certified autonomous manipulation platform.
+
+Hardware and software validation occurred in the professional development context, but the underlying procedures, measurements, acceptance thresholds, and artifacts are not public. Consequently, this repository makes no quantitative performance or reproducibility claim.

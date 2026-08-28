@@ -38,3 +38,22 @@ This repository describes those responsibilities at a general level and does not
 The experimental autonomy direction investigated the use of structured high-level requests to initiate sequences of basic manipulation actions. This sat above the robot-control and safety layers: higher-level decisions still needed to pass through controlled motion execution before reaching hardware.
 
 The research direction was influenced by ENPIRE's broader idea of using experience and evaluation to improve robotic policies. This public case study does not claim an exact reproduction, equivalent results, or implementation of every ENPIRE component.
+
+## Generic execution lifecycle
+
+```mermaid
+stateDiagram-v2
+    [*] --> Requested
+    Requested --> Rejected: validation fails
+    Requested --> Ready: validation passes
+    Ready --> Executing
+    Executing --> Completed: task and feedback agree
+    Executing --> Stopped: stop or safety condition
+    Executing --> Failed: execution error
+    Stopped --> [*]
+    Failed --> [*]
+    Rejected --> [*]
+    Completed --> [*]
+```
+
+This is a newly written, generic lifecycle used to explain safe task handling. It is not the employer's internal state machine or implementation specification.

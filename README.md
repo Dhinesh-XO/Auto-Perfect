@@ -6,6 +6,17 @@ My work focused on connecting robot hardware with a ROS 2 software workflow: com
 
 This repository intentionally contains no employer source code, internal datasets, experiment logs, prompts, model files, or private recordings. It documents my engineering responsibilities and the public technologies involved without reproducing the employer's implementation.
 
+## At a glance
+
+| Item | Public status |
+| --- | --- |
+| Context | Professional work at Sentient Industries, June 2026–present |
+| Robot platform | AgileX Piper-X |
+| My focus | Hardware/software integration, control, feedback, visualization, guarded execution, and validation |
+| Autonomy status | Experimental agent-assisted task execution |
+| Public source and results | Not published because they are employer-confidential |
+| Repository purpose | Public-safe professional case study, not a reproducibility package |
+
 ## My contribution
 
 - Worked with the AgileX Piper-X six-axis robotic arm and gripper.
@@ -16,6 +27,10 @@ This repository intentionally contains no employer source code, internal dataset
 - Developed and evaluated structured task flows for basic arm motion and manipulation.
 - Explored an agent-assisted autonomy layer inspired by published robotics research.
 - Supported hardware/software integration, testing, debugging, and validation.
+
+## Team and ownership boundary
+
+Auto-Perfect was developed in a company environment. This case study describes only my contribution and does not claim ownership of the complete system, company implementation, research assets, or team output. Features outside the responsibilities listed above should not be attributed to me from this repository.
 
 ## System context
 
